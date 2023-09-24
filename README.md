@@ -1,2 +1,5 @@
-# sb_react
-springBoot_react_practice
+# sample project of java with node.js
+## discription
+as the fisrt line says, <br>
+it's a sample project devcontainer built<br> 
+by an image of Java 17 with node.js 14
