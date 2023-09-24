@@ -2,4 +2,4 @@
 ## discription
 as the fisrt line says, <br>
 it's a sample project devcontainer built<br> 
-by an image of Java 17 with node.js 14
+by an image of Java 17 and node.js 14
