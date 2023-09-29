@@ -17,7 +17,7 @@ services:
       - 8081:8081
       - 3000:3000
     volumes:
-      - ..:/sample_java_node:cached
+      - ..:/template_java_node:cached
 
     # Overrides default command so things don't shut down after the process ends.
     command: sleep infinity
@@ -35,7 +35,7 @@ services:
       - ./mysql/init:/docker-entrypoint-initdb.d
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_USER: sample_java_node
-      MYSQL_PASSWORD: sample_java_node
-      MYSQL_DATABASE: sample_java_node
+      MYSQL_USER: template_java_node
+      MYSQL_PASSWORD: template_java_node
+      MYSQL_DATABASE: template_java_node
       TZ: "Asia/Tokyo"
